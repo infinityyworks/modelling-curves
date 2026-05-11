@@ -2,9 +2,9 @@ import numpy as np
 from scipy.stats import linregress
 from math import exp
 
-independentVar, dependentVar = input('Independent and dependent variable names: ').split(' ')
-independent = np.array(list(map(float, input(f'Dataset for {independentVar}: ').split(' '))))
-dependent = np.array(list(map(float, input(f'Dataset for {dependentVar}: ').split(' '))))
+independentVar, dependentVar = input('Independent and dependent variable names: ').split()
+independent = np.array(list(map(float, input(f'Dataset for {independentVar}: ').split())))
+dependent = np.array(list(map(float, input(f'Dataset for {dependentVar}: ').split())))
 
 ln_independent = np.log(independent)
 ln_dependent = np.log(dependent)
