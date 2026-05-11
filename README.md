@@ -8,7 +8,7 @@ A script to model the relationship between bivariate data. Currently approximate
 The program will propose two possible relationships in the forms y = kb<sup>x</sup> and y = ax<sup>n</sup>. For each one, it will show the Pearson's correlation coefficient for:
 - The linear regression line between the logarithm of the dependent dataset against the independent dataset (exponential relationship)
 - The linear regression line between the logarithms of each dataset against each other (polynomial relationship)
-<br>
+
 This allows you to easily compare the accuracy of each model.
-<br>
+<br><br>
 The equations themselves will be given in terms of the independent and dependent variable names, with the constants rounded to 2 decimal places, and the correlation coefficient rounded to 4 decimal places.
