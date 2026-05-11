@@ -9,4 +9,5 @@ The program will propose two possible relationships in the forms y = kb<sup>x</s
 - The linear regression line between the logarithm of the dependent dataset against the independent dataset (exponential relationship)
 - The linear regression line between the logarithms of each dataset against each other (polynomial relationship)
 
-This allows you to easily compare the accuracy of each model
+This allows you to easily compare the accuracy of each model.
+The equations themselves will be given in terms of the independent and dependent variable names, with the constants rounded to 2 decimal places, and the correlation coefficient rounded to 4 decimal places.
