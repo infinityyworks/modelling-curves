@@ -1,7 +1,7 @@
 # Modelling curves using logarithms
 A script to model the relationship between bivariate data. Currently approximates exponential relationships in the form y = kb<sup>x</sup>, and polynomial relationships in the form y = ax<sup>n</sup>.
 ## Entering data
-1. Enter the names of the indepdendent and dependent variable, separated with a space between them.
+1. Enter the names of the independent and dependent variable, separated with a space between them.
 2. Enter the dataset for the independent variable, separating each number by a space.
 3. Enter the dataset for the dependent variable, again separating each data item using a space.
 ## Output
